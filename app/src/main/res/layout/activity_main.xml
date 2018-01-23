@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_smartrefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srlEnablePureScrollMode="true"
+    tools:context="sina.com.smartrefreshdemo.MainActivity">
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:layout_gravity="center"
+           android:text="helloworld"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/btn"
+           android:text="跳转"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+</ScrollView>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
